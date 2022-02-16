@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranform </title>
+    <style>
+        body{
+            cursor:pointer;
+        }
+    
+        .container{
+            background-color: blue;
+            height:80vh;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #box{
+            background:#f72585;
+            width:150px;
+            height:150px;
+            /* transform:rotate(45deg);
+            transform:rotate(28deg); */
+            
+            
+        }
+        #box:hover{
+            /* transform:rotate(360deg);
+            transition:0.5s;
+            transition-property: all;
+           transition-timing-function: linear; */
+           
+           
+           /* transform:skew(45deg)
+           skew gives side angle */
+
+           /* transform:scale(2); */
+
+           /* transform:translate(20em);
+           transition:1s;
+           */
+           /* transform:translate(20rem);
+           transition:1s; */
+           /* transform:translate(120px);
+           transition:1s; */
+           transform:translate(150px,120px);
+           transition:1s;
+           transform-origin: 15px;
+
+
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="box">
+
+        </div>
+    </div>    
+
+
+
+    <h1>Transform</h1>
+    <ol>
+        <li>Rotate (Angle-deg)</li>
+        <li>Skew  (sideangle-deg)</li>
+        <li>Scale  (0 to n)</li>
+        <li>translate (liner movement-0 to n px)</li>
+    </ol>
+</body>
+</html>
