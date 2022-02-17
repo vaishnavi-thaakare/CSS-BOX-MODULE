@@ -37,13 +37,13 @@ background-color: bisque;
     border:solid;
 }
 #container5{
-    border:4px dashed red;
+    border:8px dashed red;
 }
 #container6{
     border:thick double blue;
 }
 #container7{
-    border-left: 2rem;
+    border-left: 2rem blue;
 
 }#container8{
     border:3px solid grey;
@@ -68,12 +68,7 @@ background-color: bisque;
     background-color:red ;
     border-radius: 10px 20px 30px 40px;
 }
-/* #profilePhoto{
-    border:2px solid black;
-    border-radius: 2px ;
-    height:40vh;
-    width:40%;
-} */
+
 img{
     height:40vh;
     width:200px;
@@ -82,14 +77,15 @@ img{
 }
 /* padding */
 #padding{
-    padding:1rem 1rem 1rem 1rem:
+    padding:1rem 1rem 1rem 1rem;
+    background-color:red;
 }
-/* padding:2rem 2rem(Top-bottom , left-right)
+ /* padding:2rem 2rem(Top-bottom , left-right)
 padding-right:2rem;
 padding-left:2rem;
 padding-top:2rem;
-padding-bottom:2rem; */
-/* 
+padding-bottom:2rem;  */
+
 margin */
 button{
    padding: 0.7rem;
@@ -99,13 +95,13 @@ button{
 
 /* display */
 .display-1{
-    display:inline;
+    /* display:inline; */
     border:2px solid blue;
 
 
 }
 .display-2{
-    display: block;
+    /* display: block; */
     border:2px solid blue;
     margin: 4px 2px;
 }
@@ -114,7 +110,8 @@ button{
     width:20%;
     border:2px solid blue;
     background-color: #582f0e;
-    display: inline-block;
+    display: block;
+
 }
 /* Absolute Units-% */
 /* section{
@@ -171,7 +168,7 @@ html{
 }
 /* em is good making form and put everything relative while rem is good in overall manner. */
 /* Alpha channel and Opacity */
-#alpha-channel-1{
+/* #alpha-channel-1{
     height:400px;
     width:400px;
     background-color:#bb3e03 ;
@@ -179,15 +176,15 @@ html{
 #alpha-channel-2{
     height:10rem;
     width:10rem;
-    background-color: rgba(125,225,101, 1);
+    background-color: rgba(125,225,101, 0.7); */
     /* background-color: rgba(125,225,101, 0.2);
     background-color: rgba(125,225,101, 1);
     background-color: rgba(125,225,101, 0.7); */
-}
+/* } */
 
 
 
-/* #alpha-channel-1{
+#alpha-channel-1{
     height:400px;
     width:400px;
     background-color:#bb3e03 ;
@@ -198,7 +195,7 @@ html{
     width:10rem;
     background-color: #ee9b00;
     opacity:0.4 ;
-    font-size: 1em;
+    /* font-size: 1em;
     opacity:0;
     opacity:1;
     opacity:0.7;
